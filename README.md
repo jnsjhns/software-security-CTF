@@ -1,4 +1,4 @@
-# ISEP Security CTF
+# Software Security - Capture the Flag
 
 A shared repository for security and CTF challenges. Each challenge lives in
 its own folder under `challenges/` and includes a description and a separate
@@ -6,9 +6,9 @@ file with three progressive hints.
 
 ## Challenges
 
-| Challenge | Category | Difficulty | Start |
-| --- | --- | --- | --- |
-| [Apache Path Traversal](challenges/apache-path-traversal/README.md) | Web | TBD | `docker compose -f challenges/apache-path-traversal/docker-compose.yml up --build` |
+| Challenge | Category | Difficulty |
+| --- | --- | --- | 
+| [Apache Path Traversal](challenges/apache-path-traversal/README.md) | Web | TBD | 
 
 Each challenge's hints are in its `hints.md` file. If you want to solve a
 challenge without help, read them only when needed.
@@ -17,23 +17,6 @@ challenge without help, read them only when needed.
 
 - [Docker](https://docs.docker.com/get-docker/) with Docker Compose
 
-## Run a challenge locally
-
-Run this from the repository root:
-
-```powershell
-docker compose -f challenges/apache-path-traversal/docker-compose.yml up --build
-```
-
-The challenge will be available at <http://127.0.0.1:8080>. To stop it, press
-`Ctrl+C` in the same terminal, then clean up:
-
-```powershell
-docker compose -f challenges/apache-path-traversal/docker-compose.yml down
-```
-
-Each challenge may have its own start and stop instructions. Check the
-challenge's `README.md`.
 
 ## Contributing a challenge
 
