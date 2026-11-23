@@ -1,0 +1,15 @@
+.idea/
+hiddenEvidence-easy/generate
+
+# Python
+*.pyc
+__pycache__/
+.venv/
+venv/
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Docker
+*.log
+docker-compose.override.yml
