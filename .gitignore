@@ -1,5 +1,6 @@
 .idea/
-hiddenEvidence-easy/generate
+challenges/hiddenEvidence-easy/generate
+/challenges/suspiciousFileTransfer-medium/generate/
 
 # Python
 *.pyc
