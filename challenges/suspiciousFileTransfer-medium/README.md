@@ -6,11 +6,11 @@
 
 ## Scenario
 
-The security team detected unusual network activity from an employee's workstation.
+The security team detected unusual outbound network activity from an employee's workstation. A packet capture was collected during the incident.
 
-A packet capture was collected during the incident. Most of the recorded traffic appears legitimate, but one file transfer might be relevant to the investigation.
+The captured traffic contains multiple HTTP connections to different servers. Some appear to be legitimate internal telemetry, DNS queries, and routine browsing activity. However, one series of connections looks suspicious.
 
-Your task is to analyze the capture and recover the hidden incident token from the transferred data.
+Your task is to analyze the network capture, identify the suspicious file transfer, and recover the confidential incident token that was exfiltrated.
 
 ## Provided file
 
@@ -19,3 +19,11 @@ Your task is to analyze the capture and recover the hidden incident token from t
 ## Objective
 
 Find and submit the hidden flag.
+
+## Skills tested
+
+- HTTP traffic analysis
+- TCP stream reconstruction
+- File format identification
+- Multi-part data reassembly
+- Working with compressed data
