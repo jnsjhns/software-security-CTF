@@ -29,7 +29,7 @@ List the extracted files:
 
 ```bash
 ls -l extracted/
-file extracted/*
+file extracted/*.dat
 ```
 
 The relevant transfer is `/downloads/report.dat` from `203.0.113.72`.
